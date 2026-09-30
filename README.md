@@ -9,7 +9,7 @@ suggested when **every** ingredient is in the pantry in at least the required qu
 ## Features
 - Add, edit and delete pantry items (name, quantity, unit, optional expiry date) with input validation
 - Pantry list (RecyclerView + custom adapter) bound to the database
-- 20 recipes pre-loaded on first run
+- 21 recipes pre-loaded on first run
 - Suggested Recipes screen using the strict-matching rule
 - Optional separate "Almost there" list (recipes missing exactly one ingredient)
 - Recipe detail screen with ingredients and method

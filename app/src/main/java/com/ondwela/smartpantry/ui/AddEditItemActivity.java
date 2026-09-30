@@ -62,8 +62,7 @@ public class AddEditItemActivity extends AppCompatActivity {
 
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(itemId == -1 ? R.string.title_add_item : R.string.title_edit_item);
-        toolbar.setNavigationIcon(androidx.appcompat.R.drawable.abc_ic_ab_back_material);
-        toolbar.getNavigationIcon().setTint(getColor(R.color.white));
+        toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(v -> finish());
 
         if (itemId != -1) {

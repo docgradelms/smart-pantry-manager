@@ -19,6 +19,9 @@
         <activity
             android:name=".ui.AddEditItemActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.RecipeDetailActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
